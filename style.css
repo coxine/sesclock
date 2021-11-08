@@ -2,3 +2,7 @@
 	font-family: "ceym";
 	src: url("//cdn.jsdelivr.net/gh/ghboke/corepresscdn@master/static/lib/font/ceym/ceym.woff2") format("woff2");
 }
+A {
+    FONT-SIZE: 4rem; COLOR: #0000AA ;text-decoration:none
+}
+        
