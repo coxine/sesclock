@@ -1,0 +1,16 @@
+{
+    "name": "考场电子时钟",
+    "short_name": "考场时钟",
+    "display": "standalone",
+    "start_url": "/",
+    "theme_color": "#114514",
+    "description": "实验学校的考场时钟，可自定义考试科目和起止时间。",
+    "background_color": "#114514",
+    "icons": [
+      {
+        "src": "pwaicon.png",
+        "sizes": "256x256",
+        "type": "image/png"
+      }
+    ]
+  }

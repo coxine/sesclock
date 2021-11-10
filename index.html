@@ -1,6 +1,8 @@
+<!DOCTYPE html>
 <html>
 <head>
-<title>考场时钟</title>
+    <title>考场时钟</title>
+    <link rel="manifest" href="manifest.webmanifest" />
     <link rel="icon" href="time.svg"> 
     <link rel="stylesheet" href="style.css">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -9,16 +11,15 @@
     document.documentElement.style.fontSize = ((maxWidth / 3840) * 16) + 'px';
     </script>
 </head>
-
-
-<body style="font-family:ceym;background:url(bg.svg);background-size:cover;text-align:center;font-size:8rem;color:#000000;">
-<div style="margin:0 auto;">
- <p id="subject"></p>
- <p id="time"></p>
- <div id="nowtime" style="font-size:16rem;background-color:rgba(255,255,255,0.3);width:50%;margin:0 auto;border-radius:1rem 1rem 1rem 1rem"></div>
- <p style="font-size:4rem">如有误差请校准您的电脑时间。<br/>
- 版权所有：<a href="https://newtea.ml">新茶电委会</a>&emsp;&emsp;版本：2111</div></p>
- <script src="diy.js"></script>
- </div>
+<body>
+    <div style="margin:0 auto;">
+        <p id="subject"></p>
+        <p id="time"></p>
+        <div id="nowtime" style="font-size:16rem;background-color:rgba(255,255,255,0.3);width:50%;margin:0 auto;border-radius:1rem 1rem 1rem 1rem"></div>
+        <p style="font-size:4rem">如有误差请校准您的电脑时间。<br/>
+            版权所有：<a href="https://newtea.ml">新茶电委会</a>&emsp;&emsp;版本：2111
+        </p>
+        <script src="diy.js"></script>
+    </div>
 </body>
 </html>
