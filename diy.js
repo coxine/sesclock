@@ -22,6 +22,6 @@ function check(i) {
 };
 var km = prompt("请输入考试的年级和科目：");
 var sj = prompt("请输入考试的起止时间：");
-alert("设置成功，新茶电委会祝您考出好成绩！");
+alert("设置成功，祝您考出好成绩！");
 document.getElementById("subject").innerHTML = km;
 document.getElementById("time").innerHTML = sj;
