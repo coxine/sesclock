@@ -1,6 +1,6 @@
 @font-face {
 	font-family: "ceym";
-	src: url("//cdn.jsdelivr.net/gh/ghboke/corepresscdn@master/static/lib/font/ceym/ceym.woff2") format("woff2");
+	src: url("//testingcf.jsdelivr.net/gh/ghboke/corepresscdn@master/static/lib/font/ceym/ceym.woff2") format("woff2");
 }
 a {
     font-size: 4rem;
