@@ -16,3 +16,8 @@ body{
 	font-size:8rem;
 	color:#000000;
 }
+html{
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
+}
