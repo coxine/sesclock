@@ -7,6 +7,7 @@
   <link rel="icon" href="time.svg" />
   <link rel="stylesheet" href="style.css" />
   <script src="CdnSwitch.js"></script>
+  <meta name="referrer" content="no-referrer">
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <meta property="og:title" content="可自定义显示内容的时钟，适用于各类考试之中。" />
   <meta property="og:site_name" content="考场时钟" />
@@ -15,6 +16,7 @@
   <script>
     var maxWidth = document.documentElement.clientWidth;
     document.documentElement.style.fontSize = (maxWidth / 3840) * 16 + "px";
+
     if ("serviceWorker" in window.navigator) {
       navigator.serviceWorker
         .register("./sw.js", { scope: "./" })
